@@ -10,19 +10,15 @@
     },
     "flows_outputbasename": "poll_wrappers",
     "output_split_number": 1,
-    "sheet_names" : {
-        "poll_data_sheets" : "1IgKQqnZjH9j-bJ3XgGncUA-H07ZA_kRiaykYVSQnYAg"
-    },
     "sources": {
         "flow_definitions": {
             "parent_sources": [
                 "base.flow_definitions"
             ],
             "format": "sheets",
-            "subformat": "google_sheets",
-            "files_list": [
-                "poll_data_sheets"
-            ]
+            "subformat": "csv",
+            "files_archive":"./poll_data.zip",
+            "files_list": []
         },
         "expiration_times": {
             "format": "json",

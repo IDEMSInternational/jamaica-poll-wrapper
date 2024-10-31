@@ -1,0 +1,8 @@
+ID,msg
+expiration_message,"Your chat has timed out. If you want to go back to this poll, please message us the word POLL"
+poll_only_once,Sorry you can only take the poll once.
+poll_closed,Thanks for replying but we had to close the poll.
+first_message_unrecognised_answer,"Sorry, please reply one of the two options provided only. Please reply YES or NO"
+first_message_unrecognised_answer_yes_opt,YES
+first_message_unrecognised_answer_no_opt,NO
+no_accept_poll,"No problem, but if you change your mind and DO want to participate in this poll, please message us the word POLL"
