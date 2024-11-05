@@ -17,8 +17,9 @@
             ],
             "format": "sheets",
             "subformat": "csv",
-            "files_archive":"./poll_data.zip",
-            "files_list": []
+            "files_dict": {
+                "poll_data": "poll_data"
+            }
         },
         "expiration_times": {
             "format": "json",
