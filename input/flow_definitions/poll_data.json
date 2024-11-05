@@ -3,47 +3,6 @@
     "version": "0.1.0"
   },
   "sheets": {
-    "content_index": [
-      {
-        "type": "data_sheet",
-        "sheet_name": "poll_navigation_messages",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "SingleMessageModel",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "poll_metadata",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "PollMetadataModel",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "data_sheet",
-        "sheet_name": "poll_types",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "PollTypesModel",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "tags.1": "",
-        "tags.2": ""
-      }
-    ],
     "poll_metadata": [
       {
         "ID": "ExampleDummyPoll",
@@ -79,13 +38,6 @@
       {
         "ID": "no_accept_poll",
         "msg": "No problem, but if you change your mind and DO want to participate in this poll, please message us the word POLL"
-      }
-    ],
-    "poll_types": [
-      {
-        "ID": "poll_type",
-        "registration_flow": "registration_flow_name",
-        "excluded_user_group": "excluded_user_group_name"
       }
     ]
   }
