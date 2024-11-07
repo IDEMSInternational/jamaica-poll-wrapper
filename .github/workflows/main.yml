@@ -1,5 +1,6 @@
 name: Produce RapidPro flows
-on: [push]
+on:
+    workflow_dispatch
 
 jobs:
 
