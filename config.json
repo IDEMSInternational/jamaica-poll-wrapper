@@ -10,17 +10,21 @@
     },
     "flows_outputbasename": "poll_wrappers",
     "output_split_number": 1,
+    "sheet_names" : {
+        "technical_sheets" : "1gEPk41ekMRZgtDJ3z9OcCuBBjTw1NP8E35tS-UQHSfU",
+        "content_sheets" : "1IgKQqnZjH9j-bJ3XgGncUA-H07ZA_kRiaykYVSQnYAg"
+    },
     "sources": {
         "flow_definitions": {
             "parent_sources": [
                 "base.flow_definitions"
             ],
             "format": "sheets",
-            "subformat": "csv",
-            "files_dict": {
-                "workspace_data": "workspace_data",
-                "poll_data": "poll_data"
-            }
+            "subformat": "google_sheets",
+            "files_list": [
+                "technical_sheets",
+                "content_sheets"
+            ]
         },
         "expiration_times": {
             "format": "json",
