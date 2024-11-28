@@ -21,7 +21,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
         run: python -m parenttext_pipeline.cli pull_data compile_flows
 
       - name: Publish output folder
